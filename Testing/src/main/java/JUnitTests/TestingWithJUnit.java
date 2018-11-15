@@ -21,6 +21,7 @@ public class TestingWithJUnit {
     private InputFormSubmitPage ifsp;
     private TableSearchFilterPage tsfp;
     private final String path="C:\\Users\\Tomasz\\Desktop\\eclipse\\chromedriver.exe";
+    private String cos = "POKAZ";
 
     public boolean isElementPresent(WebElement w){
         boolean result = false;
